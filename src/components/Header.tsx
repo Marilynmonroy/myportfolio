@@ -10,9 +10,9 @@ const Header = () => {
       <div className="wrapper flex items-center justify-between">
         <Link href={"/"}>
           <Image
-            src={"/marilyn.png"}
-            width={50}
-            height={50}
+            src={"/marilynLogo.png"}
+            width={70}
+            height={70}
             alt={"logo Marilyn Monroy"}
           />
         </Link>
