@@ -1,7 +1,7 @@
 import React from "react";
 
 const page = () => {
-  return <div>sobre mi</div>;
+  return <div className="wrapper">Sobre mi</div>;
 };
 
 export default page;

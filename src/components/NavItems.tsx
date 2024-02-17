@@ -13,7 +13,7 @@ const menuLinks = [
   },
   {
     label: "Proyectos",
-    route: "/proyectos",
+    route: "/#proyectos",
   },
 ];
 
