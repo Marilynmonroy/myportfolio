@@ -63,7 +63,7 @@
 
   /* 40 */
   .h2-bold {
-    @apply font-black text-[28px] leading-[40px] lg:text-[36px] lg:leading-[44px] xl:text-[60px] xl:leading-[58px];
+    @apply font-black text-[28px] leading-[40px] lg:text-[36px] lg:leading-[44px] xl:text-[60px] xl:leading-[68px];
   }
 
   .h2-medium {
@@ -86,7 +86,7 @@
 
   /* 28 */
   .h5-bold {
-    @apply font-bold text-[28px] leading-[36px];
+    @apply font-bold text-[24px] leading-[32px];
   }
 
   /* 24 */

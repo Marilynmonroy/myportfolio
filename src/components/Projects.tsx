@@ -7,24 +7,21 @@ import {
   SiTailwindcss,
   SiTypescript,
 } from "react-icons/si";
+import SkillsIcons from "./SkillsIcons";
 
 const Projects = () => {
   return (
     <div>
-      <h2 className="h2-bold flex-center py-10 md:pt-20">Proyectos</h2>
+      <h2 className="h2-bold flex-col text-center pb-10">
+        Proyectos <p className="text-secondary"> {""} recientes</p>
+      </h2>
       <div className="flex flex-col gap-5 justify-between">
         <ProjectsCard
           title={"Eventure"}
           description={
             "Plataforma fullstack con integración de API y responsiva para la gestión de eventos. Optimiza la planificación con una interfaz intuitiva. Una solución eficaz para organizadores y participantes."
           }
-          icons={[
-            <FaNodeJs />,
-            <FaReact />,
-            <SiMongodb />,
-            <SiTailwindcss />,
-            <SiTypescript />,
-          ]}
+          skills={[<SkillsIcons name={"NodeJs"} />]}
           image={"/projects/eventure.png"}
           alt={"Eventure página principal"}
           url={"https://github.com/Marilynmonroy/eventure"}
@@ -36,7 +33,7 @@ const Projects = () => {
           description={
             "Explora una plataforma de acortamiento de enlaces que permite cambiar entre modos claro y oscuro para una experiencia personalizada. Simplifica los enlaces de forma efectiva con esta solución versátil."
           }
-          icons={[
+          skills={[
             <SiTailwindcss />,
             <FaReact />,
             <SiPrisma />,
@@ -54,8 +51,8 @@ const Projects = () => {
           description={
             "Landing page de captación de clientes para la empresa BiMachine, dedicada al análisis de datos de diversas empresas en Brasil."
           }
-          icons={[
-            <FaReact />,
+          skills={[
+            <SkillsIcons name="NodeJs" />,
             <SiTypescript />,
             <SiTailwindcss />,
             <SiPrisma />,

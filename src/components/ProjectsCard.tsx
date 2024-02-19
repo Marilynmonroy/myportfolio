@@ -15,7 +15,7 @@ import { Button } from "./ui/button";
 type projectsCardProps = {
   title: string;
   description: string;
-  icons: React.ReactNode;
+  skills: React.ReactNode;
   image: string;
   alt: string;
   url: string;
@@ -33,7 +33,7 @@ const ProjectsCard = (props: projectsCardProps) => {
         >
           {props.description}
         </CardDescription>
-        <div className="flex gap-4 text-3xl">{props.icons}</div>
+        <div className="flex gap-4"> {props.skills}</div>
       </CardHeader>
       <div className="md:w-full">
         <CardContent>
@@ -48,13 +48,14 @@ const ProjectsCard = (props: projectsCardProps) => {
           </Link>
         </CardContent>
         <CardFooter className="flex justify-between">
-          <Link
-            href={props.url}
-            className="font-light italic text-xs md:text-sm"
-            target="_blank"
+          <Button
+            variant={"ghost"}
+            className="button hover:bg-primary/50 italic text-xs md:text-sm"
           >
-            Repositorio de GitHub
-          </Link>
+            <Link href={props.url} target="_blank" className="font-light ">
+              Ir al repositorio de GitHub
+            </Link>
+          </Button>
           <Button asChild className="button">
             <Link href={props.linkVisit} target="_blank">
               Visitar
