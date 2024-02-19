@@ -14,9 +14,20 @@ const Profile = () => {
         width={400}
         height={400}
       />
-      <h1 className="h1-bold text-center md:text-left py-4">
-        Marilyn Aragón Monroy
-      </h1>
+      <div className="">
+        <h1 className="h1-bold text-center md:text-left py-4">
+          Marilyn Monroy
+        </h1>
+        <p className="md:w-3/4 pb-3 ">
+          Hola! Te doy la bienvenida a mi portafolio, donde podrás explorar los
+          proyectos que he desarrollado como{" "}
+          <b className="text-secondary">Full-Stack {""}</b>
+          utilizando tecnologías como {""}
+          <b className="text-secondary">
+            TypeScript, React, Postgres, Node.Js, CSS y HTML
+          </b>
+        </p>
+      </div>
       <div className="relative flex-center flex-row gap-5 md:flex-col">
         <SocialMedia
           title="LinkedIn"

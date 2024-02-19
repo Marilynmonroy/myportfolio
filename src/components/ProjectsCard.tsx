@@ -25,7 +25,7 @@ type projectsCardProps = {
 const ProjectsCard = (props: projectsCardProps) => {
   return (
     <Card className="bg-[#242424] rounded-xl border-2 border-[#242424] w-full flex flex-col md:flex-row md:p-5 justify-between ">
-      <CardHeader className="gap-3 md:w-full">
+      <CardHeader className="gap-2 md:w-full">
         <CardTitle className="h3-bold">{props.title}</CardTitle>
         <CardDescription
           className="text-[#E9E9E9]
@@ -33,7 +33,8 @@ const ProjectsCard = (props: projectsCardProps) => {
         >
           {props.description}
         </CardDescription>
-        <div className="flex gap-4"> {props.skills}</div>
+        <p className="font-semibold text-sm">Tecnologias utilizadas:</p>
+        <div className="flex gap-2"> {props.skills}</div>
       </CardHeader>
       <div className="md:w-full">
         <CardContent>

@@ -58,7 +58,7 @@
 
   /* 64 */
   .h1-bold {
-    @apply font-bold text-[36px] leading-[48px]  lg:text-[80px] lg:leading-[100px]  xl:text-[120px] xl:leading-[140px];
+    @apply font-bold text-[36px] leading-[48px] lg:text-[80px] lg:leading-[100px]  xl:text-[100px] xl:leading-[120px];
   }
 
   /* 40 */
@@ -75,10 +75,6 @@
     @apply font-bold text-[28px] leading-[36px] md:text-[36px] md:leading-[44px];
   }
 
-  .h3-medium {
-    @apply font-medium text-[28px] leading-[36px] md:text-[36px] md:leading-[44px];
-  }
-
   /* 32 */
   .h4-medium {
     @apply font-medium text-[32px] leading-[40px];
@@ -89,50 +85,14 @@
     @apply font-bold text-[24px] leading-[32px];
   }
 
-  /* 24 */
-  .p-bold-24 {
-    @apply font-bold text-[24px] leading-[36px];
-  }
-
   .p-medium-24 {
     @apply font-medium text-[24px] leading-[36px];
-  }
-
-  .p-regular-24 {
-    @apply font-normal text-[24px] leading-[36px];
-  }
-
-  /* 20 */
-  .p-bold-20 {
-    @apply font-bold text-[20px] leading-[30px] tracking-[2%];
-  }
-
-  .p-semibold-20 {
-    @apply text-[20px] font-semibold leading-[30px] tracking-[2%];
   }
 
   .p-medium-20 {
     @apply text-[20px] font-medium leading-[30px];
   }
 
-  .p-regular-20 {
-    @apply text-[20px] font-normal leading-[30px] tracking-[2%];
-  }
-
-  /* 18 */
-  .p-semibold-18 {
-    @apply text-[18px] font-semibold leading-[28px] tracking-[2%];
-  }
-
-  .p-medium-18 {
-    @apply text-[18px] font-medium leading-[28px];
-  }
-
-  .p-regular-18 {
-    @apply text-[18px] font-normal leading-[28px] tracking-[2%];
-  }
-
-  /* 16 */
   .p-bold-16 {
     @apply text-[16px] font-bold leading-[24px];
   }
@@ -145,25 +105,15 @@
     @apply text-[16px] font-normal leading-[24px];
   }
 
-  /* 14 */
-  .p-semibold-14 {
-    @apply text-[14px] font-semibold leading-[20px];
-  }
-
   .p-medium-14 {
     @apply text-[14px] font-medium leading-[20px];
   }
 
-  .p-regular-14 {
-    @apply text-[14px] font-normal leading-[20px];
-  }
-
-  /* 12 */
-  .p-medium-12 {
-    @apply text-[12px] font-medium leading-[20px];
-  }
-
   .button {
     @apply rounded-2xl h-[45px] p-bold-16;
+  }
+
+  .skills {
+    @apply text-[11px] border-2 px-3 py-1 border-primary rounded-xl bg-primary/20 hover:bg-primary/30;
   }
 }

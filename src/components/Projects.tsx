@@ -1,12 +1,5 @@
 import React from "react";
 import ProjectsCard from "./ProjectsCard";
-import { FaNodeJs, FaReact } from "react-icons/fa";
-import {
-  SiMongodb,
-  SiPrisma,
-  SiTailwindcss,
-  SiTypescript,
-} from "react-icons/si";
 import SkillsIcons from "./SkillsIcons";
 
 const Projects = () => {
@@ -21,7 +14,14 @@ const Projects = () => {
           description={
             "Plataforma fullstack con integración de API y responsiva para la gestión de eventos. Optimiza la planificación con una interfaz intuitiva. Una solución eficaz para organizadores y participantes."
           }
-          skills={[<SkillsIcons name={"NodeJs"} />]}
+          skills={[
+            <SkillsIcons name={"Postgres"} key={"postgres"} />,
+            <SkillsIcons name={"Node.js"} key={"nodeJs"} />,
+            <SkillsIcons name={"MongoDB"} key={"prisma"} />,
+            <SkillsIcons name={"TypeScript"} key={"typeScript"} />,
+            <SkillsIcons name={"React"} key={"react"} />,
+            <SkillsIcons name={"Tailwind"} key={"tailwind"} />,
+          ]}
           image={"/projects/eventure.png"}
           alt={"Eventure página principal"}
           url={"https://github.com/Marilynmonroy/eventure"}
@@ -34,11 +34,12 @@ const Projects = () => {
             "Explora una plataforma de acortamiento de enlaces que permite cambiar entre modos claro y oscuro para una experiencia personalizada. Simplifica los enlaces de forma efectiva con esta solución versátil."
           }
           skills={[
-            <SiTailwindcss />,
-            <FaReact />,
-            <SiPrisma />,
-            <SiTypescript />,
-            <FaNodeJs />,
+            <SkillsIcons name={"Postgres"} key={"postgres"} />,
+            <SkillsIcons name={"Node.js"} key={"nodeJs"} />,
+            <SkillsIcons name={"Prisma"} key={"prisma"} />,
+            <SkillsIcons name={"TypeScript"} key={"typeScript"} />,
+            <SkillsIcons name={"React"} key={"react"} />,
+            <SkillsIcons name={"Tailwind"} key={"tailwind"} />,
           ]}
           image={"/projects/liencurt.png"}
           alt={"LienCurt página principal"}
@@ -52,11 +53,12 @@ const Projects = () => {
             "Landing page de captación de clientes para la empresa BiMachine, dedicada al análisis de datos de diversas empresas en Brasil."
           }
           skills={[
-            <SkillsIcons name="NodeJs" />,
-            <SiTypescript />,
-            <SiTailwindcss />,
-            <SiPrisma />,
-            <FaNodeJs />,
+            <SkillsIcons name={"TypeScript"} key={"typeScript"} />,
+            <SkillsIcons name={"Postgres"} key={"Postgres"} />,
+            <SkillsIcons name={"Docker"} key={"docker"} />,
+            <SkillsIcons name={"React"} key={"react"} />,
+            <SkillsIcons name={"Node.js"} key={"nodeJs"} />,
+            <SkillsIcons name={"Tailwind"} key={"tailwind"} />,
           ]}
           image={"/projects/biMachine.png"}
           alt={"BiMachine - captación de clientes"}
