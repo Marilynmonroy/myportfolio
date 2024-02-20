@@ -8,16 +8,16 @@ const roboto = Roboto({
 });
 
 export const metadata: Metadata = {
-  title: "Portafolio de Marilyn Monroy",
+  title: "Marilyn Monroy - Portfolio",
   description:
-    "Transformo ideas en código y diseño, creando soluciones web únicas y funcionales. Descubre cómo llevar tu proyecto al siguiente nivel con mi experiencia en programación y diseño. Explora mi portafolio.",
+    "Transformo ideas en código y diseño, creando soluciones web únicas y funcionales. Llevemos tu proyecto al siguiente nivel. Explora mi portafolio.",
   metadataBase: new URL("https://marilynmonroy.vercel.app/"),
   alternates: {
     canonical: "/",
   },
   openGraph: {
     url: "https://marilynmonroy.vercel.app/",
-    images: "/og-pagina.png",
+    images: "/pagina.png",
   },
 };
 
