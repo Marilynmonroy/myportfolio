@@ -2,7 +2,7 @@ import Link from "next/link";
 import React from "react";
 
 interface NavItemsProps {
-  onItemClick: () => void;
+  onItemClick?: () => void;
 }
 
 const menuLinks = [
