@@ -21,7 +21,7 @@ export const metadata: Metadata = {
     type: "website",
   },
   twitter: {
-    card: "player",
+    card: "summary",
     images: "/marilynFoto.jpg",
     site: "https://marilynmonroy.vercel.app/",
   },
