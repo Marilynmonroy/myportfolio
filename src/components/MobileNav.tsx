@@ -19,7 +19,12 @@ const MobileNav = () => {
   return (
     <nav className="md:hidden">
       <Sheet>
-        <SheetTrigger className="align-middle" onClick={handleSheetToggle}>
+        <SheetTrigger
+          className="align-middle"
+          onClick={() => {
+            handleSheetToggle();
+          }}
+        >
           <IoMenu className="text-3xl cursor-pointer" />
         </SheetTrigger>
         <SheetContent
