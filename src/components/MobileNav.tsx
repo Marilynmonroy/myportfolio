@@ -11,8 +11,7 @@ const MobileNav = () => {
         <SheetTrigger className="align-middle">
           <IoMenu className="text-3xl cursor-pointer" />
         </SheetTrigger>
-        <SheetContent className="flex flex-col gap-6 bg-slate-500 md:hidden">
-          {/*           <Separator className="border border-gray-50" /> */}
+        <SheetContent className="flex flex-col backdrop-blur-lg bg-black/30 md:hidden">
           <NavItems />
         </SheetContent>
       </Sheet>
