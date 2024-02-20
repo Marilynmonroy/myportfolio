@@ -34,7 +34,7 @@ const ProjectsCard = (props: projectsCardProps) => {
           {props.description}
         </CardDescription>
         <p className="font-semibold text-sm">Tecnologias utilizadas:</p>
-        <div className="flex gap-2"> {props.skills}</div>
+        <div className="flex gap-2 flex-wrap"> {props.skills}</div>
       </CardHeader>
       <div className="md:w-full">
         <CardContent>
@@ -48,7 +48,7 @@ const ProjectsCard = (props: projectsCardProps) => {
             />
           </Link>
         </CardContent>
-        <CardFooter className="flex justify-between">
+        <CardFooter className="flex justify-between flex-col md:flex-row">
           <Button
             variant={"ghost"}
             className="button hover:bg-primary/50 italic text-xs md:text-sm"

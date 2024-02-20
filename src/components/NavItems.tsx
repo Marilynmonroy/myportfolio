@@ -9,7 +9,7 @@ const menuLinks = [
   },
   {
     label: "Sobre mi",
-    route: "/sobre-mi",
+    route: "/MarilynAragon.Esp.pdf",
   },
   {
     label: "Proyectos",

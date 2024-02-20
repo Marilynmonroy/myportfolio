@@ -5,7 +5,7 @@ import { IoLogoWhatsapp } from "react-icons/io5";
 
 const Footer = () => {
   return (
-    <footer className="border-t">
+    <footer className="border-t ">
       <div className="wrapper flex-center flex-center wrapper flex-between flex gap-4 p-5 text-center">
         <Link href={"/"}>
           <Image
