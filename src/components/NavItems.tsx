@@ -1,6 +1,9 @@
-"use client";
 import Link from "next/link";
 import React from "react";
+
+interface NavItemsProps {
+  onItemClick: () => void;
+}
 
 const menuLinks = [
   {
@@ -16,13 +19,16 @@ const menuLinks = [
     route: "/#proyectos",
   },
 ];
-const NavItems = () => {
+
+const NavItems: React.FC<NavItemsProps> = ({ onItemClick }) => {
   return (
     <ul className="md:flex-between flex w-full flex-col gap-10 md:flex-row">
       {menuLinks.map((item, index) => {
         return (
           <li key={index} className="hover:text-secondary p-bold-16">
-            <Link href={item.route}>{item.label}</Link>
+            <Link href={item.route} onClick={onItemClick}>
+              {item.label}
+            </Link>
           </li>
         );
       })}
