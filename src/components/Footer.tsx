@@ -9,17 +9,26 @@ const Footer = () => {
       <div className="wrapper flex-center flex-center wrapper flex-between flex gap-4 p-5 text-center">
         <Link href={"/"}>
           <Image
-            src={"/marilynLogo.png"}
+            src={"/marilynLogo3.png"}
             width={60}
             height={60}
             alt={"logo Marilyn Monroy"}
           />
         </Link>
-        <p className="text-sm text-gray-500"> Marilyn Aragón Monroy </p>
+        <p className="text-sm text-gray-300"> Marilyn Aragón Monroy </p>
         <div className="flex justify-center gap-5">
-          <FaGithub className="text-2xl" />
-          <FaLinkedin className="text-2xl" />
-          <IoLogoWhatsapp className="text-2xl" />
+          <FaGithub
+            className="text-2xl"
+            href="https://github.com/Marilynmonroy"
+          />
+          <FaLinkedin
+            className="text-2xl"
+            href="https://www.linkedin.com/in/marilyn-aragon-monroy/"
+          />
+          <IoLogoWhatsapp
+            className="text-2xl"
+            href="https://wa.me/573015151888"
+          />
         </div>
       </div>
     </footer>

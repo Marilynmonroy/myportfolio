@@ -38,7 +38,7 @@ const ProjectsCard = (props: projectsCardProps) => {
       </CardHeader>
       <div className="md:w-full">
         <CardContent>
-          <Link href={props.linkVisit} target="_blank">
+          <Link href={props.linkVisit}>
             <Image
               src={props.image}
               alt={props.alt}
@@ -53,12 +53,12 @@ const ProjectsCard = (props: projectsCardProps) => {
             variant={"ghost"}
             className="button hover:bg-primary/50 italic text-xs md:text-sm"
           >
-            <Link href={props.url} target="_blank" className="font-light ">
+            <Link href={props.url} className="font-light ">
               Ir al repositorio de GitHub
             </Link>
           </Button>
           <Button asChild className="button">
-            <Link href={props.linkVisit} target="_blank">
+            <Link href={props.linkVisit}>
               Visitar
               <IoIosArrowRoundForward className=" text-3xl" />
             </Link>

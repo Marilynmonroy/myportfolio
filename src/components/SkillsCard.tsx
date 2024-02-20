@@ -16,6 +16,7 @@ const SkillsCard = ({ title, icon, alt }: skillsCardProps) => {
         alt={alt}
         width={40}
         height={40}
+        layout="responsive"
       />
 
       <p className="p-medium-14 text-background">{title}</p>

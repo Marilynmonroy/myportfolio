@@ -8,8 +8,16 @@ const roboto = Roboto({
 });
 
 export const metadata: Metadata = {
-  title: "Marilyn Monroy",
-  description: "Portfolio",
+  title: "Portafolio de Marilyn Monroy",
+  description:
+    "Explora el portafolio de una programadora y diseñadora. Transformo ideas en código y diseño, creando soluciones web únicas y funcionales. Descubre cómo puedo llevar tu proyecto al siguiente nivel",
+  metadataBase: new URL("https://marilynmonroy.vercel.app/"),
+  alternates: {
+    canonical: "/",
+  },
+  openGraph: {
+    images: "/pagina.png",
+  },
 };
 
 export default function RootLayout({
