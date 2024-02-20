@@ -18,6 +18,7 @@ export const metadata: Metadata = {
   openGraph: {
     url: "https://marilynmonroy.vercel.app/",
     images: "/pagina.png",
+    type: "website",
   },
   twitter: {
     card: "player",
