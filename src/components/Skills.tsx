@@ -18,7 +18,7 @@ const Skills = () => {
             <RiCodeView className="text-4xl md:text-2xl" />
           </div>
           <div className="col-start-1 col-end-3 md:pt-3">
-            <h3 className="h5-bold">Desarrolladora</h3>
+            <h3 className="h5-bold">Programadora</h3>
           </div>
           <SkillsCard
             title={"TypeScript"}

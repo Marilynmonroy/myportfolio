@@ -10,13 +10,13 @@ const Header = () => {
       <div className="wrapper flex items-center justify-between">
         <Link href={"/"}>
           <Image
-            src={"/marilynLogo.png"}
+            src={"/marilynLogo3.png"}
             width={70}
             height={70}
             alt={"logo Marilyn Monroy"}
           />
         </Link>
-        <nav className="md:flex-between hidden w-full max-w-xs">
+        <nav className="md:flex-between hidden w-full max-w-xs ">
           <NavItems />
         </nav>
         <MobileNav />

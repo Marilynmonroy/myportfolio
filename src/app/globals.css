@@ -51,17 +51,13 @@
   .flex-center {
     @apply flex justify-center items-center;
   }
-
   .flex-between {
     @apply flex justify-between items-center;
   }
-
-  /* 64 */
   .h1-bold {
     @apply font-bold text-[36px] leading-[48px] lg:text-[80px] lg:leading-[100px]  xl:text-[100px] xl:leading-[120px];
   }
 
-  /* 40 */
   .h2-bold {
     @apply font-black text-[28px] leading-[40px] lg:text-[36px] lg:leading-[44px] xl:text-[60px] xl:leading-[68px];
   }

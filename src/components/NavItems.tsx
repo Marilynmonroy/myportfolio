@@ -16,13 +16,12 @@ const menuLinks = [
     route: "/#proyectos",
   },
 ];
-
 const NavItems = () => {
   return (
     <ul className="md:flex-between flex w-full flex-col gap-10 md:flex-row">
-      {menuLinks.map((item) => {
+      {menuLinks.map((item, index) => {
         return (
-          <li className="hover:text-secondary p-bold-16">
+          <li key={index} className="hover:text-secondary p-bold-16">
             <Link href={item.route}>{item.label}</Link>
           </li>
         );
