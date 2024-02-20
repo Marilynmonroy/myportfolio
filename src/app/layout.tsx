@@ -19,6 +19,11 @@ export const metadata: Metadata = {
     url: "https://marilynmonroy.vercel.app/",
     images: "/pagina.png",
   },
+  twitter: {
+    card: "player",
+    images: "/marilynFoto.jpg",
+    site: "https://marilynmonroy.vercel.app/",
+  },
 };
 
 export default function RootLayout({
