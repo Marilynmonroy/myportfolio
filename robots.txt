@@ -1,8 +1,9 @@
 Sitemap: https://marilynmonroy.vercel.app/sitemap.xml
+
 User-agent:*
 Disallow:
 
 User-agent: Twitterbot
-Disallow: *
+Disallow: 
 
 Allow: /public

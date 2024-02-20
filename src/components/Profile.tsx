@@ -11,8 +11,8 @@ const Profile = () => {
         src={"/marilynFoto.jpg"}
         alt={"Marilyn Monroy"}
         className="rounded-full"
-        width={400}
-        height={400}
+        width={400 || "auto"}
+        height={400 || "auto"}
       />
       <div className="">
         <h1 className="h1-bold text-center md:text-left py-4">

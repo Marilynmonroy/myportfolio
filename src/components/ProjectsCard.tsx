@@ -42,8 +42,8 @@ const ProjectsCard = (props: projectsCardProps) => {
             <Image
               src={props.image}
               alt={props.alt}
-              height={500}
-              width={500}
+              height={500 || "auto"}
+              width={500 || "auto"}
               className="rounded-xl shadow-2xl shadow-black"
             />
           </Link>

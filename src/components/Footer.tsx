@@ -10,8 +10,8 @@ const Footer = () => {
         <Link href={"/"}>
           <Image
             src={"/marilynLogo3.png"}
-            width={60}
-            height={60}
+            width={60 || "auto"}
+            height={60 || "auto"}
             alt={"logo Marilyn Monroy"}
           />
         </Link>

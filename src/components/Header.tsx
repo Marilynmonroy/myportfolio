@@ -33,8 +33,8 @@ const Header = () => {
         <Link href={"/"}>
           <Image
             src={"/marilynLogo3.png"}
-            width={70}
-            height={70}
+            width={70 || "auto"}
+            height={70 || "auto"}
             alt={"logo Marilyn Monroy"}
           />
         </Link>
