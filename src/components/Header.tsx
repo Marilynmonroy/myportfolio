@@ -39,7 +39,7 @@ const Header = () => {
           />
         </Link>
         <nav className="md:flex-between hidden w-full max-w-xs ">
-          <NavItems onItemClick={() => {}} />
+          <NavItems />
         </nav>
         <MobileNav />
       </div>
