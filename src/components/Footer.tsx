@@ -10,22 +10,28 @@ const Footer = () => {
         <Link href={"/"}>
           <Image
             src={"/marilynLogo3.png"}
-            width={60 || "auto"}
-            height={60 || "auto"}
+            width={60}
+            height={60}
             alt={"logo Marilyn Monroy"}
           />
         </Link>
-        <p className="text-sm text-gray-300"> Marilyn Aragón Monroy </p>
+        <p className="text-sm text-gray-300">
+          {" "}
+          Marilyn Aragón Monroy{" "}
+        </p>
         <div className="flex justify-center gap-5">
           <FaGithub
+            target="_blank"
             className="text-2xl"
             href="https://github.com/Marilynmonroy"
           />
           <FaLinkedin
+            target="_blank"
             className="text-2xl"
             href="https://www.linkedin.com/in/marilyn-aragon-monroy/"
           />
           <IoLogoWhatsapp
+            target="_blank"
             className="text-2xl"
             href="https://wa.me/573015151888"
           />

@@ -1,36 +1,32 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Portafolio de Marilyn Monroy
 
-## Getting Started
+¡Hola! Soy Marilyn Monroy, una profesional de lenguas modernas con un fuerte interés en la comunicación y el diseño digital. Mis habilidades se centran en el proceso creativo y la creación de contenido para plataformas digitales, así como en la construcción de identidades visuales y el desarrollo de branding personal.
 
-First, run the development server:
+## Sobre mí
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+Soy una persona comunicativa que se adapta fácilmente a cualquier proyecto o experiencia, lo que me impulsa a estar en constante búsqueda de nuevos conocimientos y evolución profesional. Actualmente, me encuentro expandiendo mis habilidades en el ámbito del desarrollo web, adquiriendo competencias en tecnologías como JavaScript, HTML/CSS, React, Node y MySQL.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Estoy entusiasmada por seguir creciendo en este campo y combinar mis conocimientos en diseño digital y front-end para crear experiencias digitales impactantes.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Habilidades
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+- **Diseño Digital**: Adobe Creative Suite, Figma
+- **Branding y Comunicación**: Creación de identidad visual, desarrollo de estrategias de branding personal
+- **Lenguajes de Programación**: JavaScript, HTML, CSS
+- **Frameworks y Librerías**: React, Node.js
+- **Bases de Datos**: MySQL
 
-## Learn More
+## Contacto
 
-To learn more about Next.js, take a look at the following resources:
+Si estás interesado en colaborar o simplemente quieres decir "¡Hola!", puedes contactarme a través de mis redes sociales o por correo electrónico:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- [LinkedIn](https://www.linkedin.com/in/marilyn-aragon-monroy/)
+- [Correo Electrónico](mailto:aragonmmarilynt@gmail.com)
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+## Conclusión
 
-## Deploy on Vercel
+Estoy emocionada de seguir aprendiendo y creciendo en el ámbito del desarrollo web, y de aplicar mis habilidades en diseño digital para crear soluciones innovadoras y atractivas. Gracias por visitar mi portafolio. ¡Espero que disfrutes explorando mis proyectos tanto como yo disfruté creándolos!
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+---
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+© 2024 Marilyn Monroy. Todos los derechos reservados.

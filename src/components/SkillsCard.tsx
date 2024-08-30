@@ -14,8 +14,8 @@ const SkillsCard = ({ title, icon, alt }: skillsCardProps) => {
         className="pt-2 object-fill"
         src={icon}
         alt={alt}
-        width={40 || "auto"}
-        height={40 || "auto"}
+        width={40}
+        height={40}
       />
 
       <p className="p-medium-14 text-background">{title}</p>

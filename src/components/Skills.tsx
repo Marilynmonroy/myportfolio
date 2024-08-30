@@ -56,16 +56,17 @@ const Skills = () => {
             <h3 className="h5-bold">Diseñadora</h3>
           </div>
           <SkillsCard
+            title={"Photoshop"}
+            icon={"/programas/photoshop.png"}
+            alt={""}
+          />
+          <SkillsCard
             title={"Illustrator"}
             icon={"/programas/illustrator.png"}
             alt={""}
           />
           <SkillsCard title={"Figma"} icon={"/programas/figma.png"} alt={""} />
-          <SkillsCard
-            title={"Photoshop"}
-            icon={"/programas/photoshop.png"}
-            alt={""}
-          />
+
           <SkillsCard
             title={"Adobe XD"}
             icon={"/programas/adobexd.png"}

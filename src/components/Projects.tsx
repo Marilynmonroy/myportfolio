@@ -10,6 +10,24 @@ const Projects = () => {
       </h2>
       <div className="flex flex-col gap-5 justify-between">
         <ProjectsCard
+          title={"Heiss Hotel"}
+          description={
+            "Hotel ubicado en Medellín - Colombia. Desarrollo de un sitio web moderno y optimizado. El proyecto se centra en la generación de contenido dinámico, SEO avanzado, diseño responsive, y la integración de Google Tag Manager."
+          }
+          skills={[
+            <SkillsIcons name={"Node.js"} key={"nodeJs"} />,
+            <SkillsIcons name={"TypeScript"} key={"typeScript"} />,
+            <SkillsIcons name={"NextJS"} key={"NextJS"} />,
+            <SkillsIcons name={"Tailwind"} key={"tailwind"} />,
+            <SkillsIcons name={"SwiperJs"} key={"SwiperJs"} />,
+            <SkillsIcons name={"Contentful"} key={"Contentful"} />,
+          ]}
+          image={"/projects/heisshotel.png"}
+          alt={"Heiss Hotel página principal"}
+          url={"https://github.com/Marilynmonroy/heisshotel-1.git"}
+          linkVisit={"https://heisshotel.com/"}
+        />
+        <ProjectsCard
           title={"Eventure"}
           description={
             "Plataforma fullstack con integración de API y responsiva para la gestión de eventos. Optimiza la planificación con una interfaz intuitiva. Una solución eficaz para organizadores y participantes."

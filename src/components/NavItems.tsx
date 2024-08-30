@@ -13,6 +13,7 @@ const menuLinks = [
   {
     label: "Sobre mi",
     route: "/MarilynAragon.Esp.pdf",
+    target: "_blank",
   },
   {
     label: "Proyectos",
@@ -26,7 +27,7 @@ const NavItems: React.FC<NavItemsProps> = ({ onItemClick }) => {
       {menuLinks.map((item, index) => {
         return (
           <li key={index} className="hover:text-secondary p-bold-16">
-            <Link href={item.route} onClick={onItemClick}>
+            <Link href={item.route} onClick={onItemClick} target={item.target}>
               {item.label}
             </Link>
           </li>
